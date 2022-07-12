@@ -34,6 +34,6 @@ func Fun(s *discordgo.Session, m *discordgo.MessageCreate) {
 		image := catboy.Url
 
 		s.ChannelMessageSend(m.ChannelID, image)
-		s.ChannelMessageSend(m.ChannelID, "Brought to you by catboys api!")
+		s.ChannelMessageSend(m.ChannelID, "Brought to you by catboys.com api!")
 	}
 }
