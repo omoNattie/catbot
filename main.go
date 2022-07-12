@@ -27,7 +27,8 @@ func main() {
 	}
 
 	// handlers
-	catbot.AddHandler(commands.Fun)
+	catbot.AddHandler(commands.CatBoy)
+	catbot.AddHandler(commands.Avatar)
 	catbot.AddHandler(commands.Mods)
 
 	catbot.Identify.Intents = discordgo.IntentGuildMessages
