@@ -19,8 +19,6 @@ func main() {
 	}
 	token := os.Getenv("token")
 
-	fmt.Println(token)
-
 	// initialize bot
 	catbot, err := discordgo.New("Bot " + token)
 	if err != nil {
